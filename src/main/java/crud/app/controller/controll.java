@@ -194,7 +194,7 @@ public class controll {
 		String studentId = requestParams.get("id");
 				String name = requestParams.get("name");
 		String age = requestParams.get("age");
-		String clgname = requestParams.get("clgname");
+		String clgname = requestParams.get("clg");
 				String address = requestParams.get("address");
 		 Session session =	sessionFactory.openSession();
 	       session.beginTransaction();
